@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: yeboahd24/heroku_deploy@v3.4.6
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
         heroko_api_key: ${{secrets.HEROKU_API_KEY}}
