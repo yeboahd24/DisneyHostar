@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-1_8zd^)al716927=xwi!2ff!@+pss_tv*8#l3o*^rofar=4o%)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['disneyhotstar.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['disneyhotstar.herokuapp.com', '127.0.0.1', 'disneyplus.onrender.com']
 
 
 # Application definition
