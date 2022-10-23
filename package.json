@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-        "build": "pip install requirements.txt" && exit 1",
+        "build": "pip install requirements.txt",
         "test": "echo \"No test specified\" && exit 1",
-        "start": "gunicorn mysite.wsgi:application"
+        "start": "gunicorn DisneyPlusClone.wsgi:application"
     },
    "repository": {
         "type": "git",
