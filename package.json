@@ -1,0 +1,20 @@
+{
+  "name": "DisneyHostar",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+        "build": "pip install requirements.txt" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "gunicorn mysite.wsgi:application"
+    },
+   "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yeboahd24/DisneyHostar.git"
+    },
+    "author": "Dominic Yeboah",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yeboahd24/DisneyHostar/issues"
+    },
+    "homepage": "https://github.com/yeboahd24/DisneyHostar#readme"
+}
