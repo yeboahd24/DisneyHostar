@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1_8zd^)al716927=xwi!2ff!@+pss_tv*8#l3o*^rofar=4o%)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['disneyhotstar.herokuapp.com', '127.0.0.1', 'disneyplus.onrender.com']
 
