@@ -4,10 +4,7 @@ This is a simple project that allow users to upload their favorite movies
 From the backend (django admin) to the frontend it also have google authentication
 
 That allows users to login with thier google account.
-This project [DisneyPlusCone](https://disneyhotstar.herokuapp.com/) is hosted on heroku server
-
-For now but looks forward to update with it another free tier server since heroku will not be
-using free tier's again.
+This project [DisneyPlusCone](https://disneyplus.onrender.com/) is hosted on render server
 
 
 ## Models
